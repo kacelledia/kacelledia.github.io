@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Class Site</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Stylized Letters</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #1f2c7c;
+      font-family: 'tieng-font';
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .letter-box {
+      position: relative;
+      background: white;
+      color: #1f2c7c;
+      padding: 30px 20px;
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 20px 20px 0 #111d5c;
+      border: 4px solid #1f2c7c;
+      border-radius: 6px;
+    }
+
+    .letter-box::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      right: -4px;
+      bottom: -4px;
+      border: 2px solid #1f2c7c;
+      border-style: double;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+  </style>
 </head>
-
 <body>
-    <h1>Welcome to my class site</h1>
-    <ul>
-        <li>
-            <a href="exercise-1/index.html">Exercise 1</a>
-        </li>
-        <li>
-            <a href="#">Exercise 2</a>
-        </li>
-        <li>
-            <a href="#">Exercise 3</a>
-        </li>
-        <li>
-            <a href="#">Typeface Microsite</a>
-        </li>
-    </ul>  
-
-    <img src="flowers.jpg">
+  <div class="letter-box">A</div>
+  <div class="letter-box">E</div>
+  <div class="letter-box">G</div>
+  <div class="letter-box">N</div>
+  <div class="letter-box">S</div>
+  <div class="letter-box">U</div>
+  <div class="letter-box">Z</div>
+  <div class="letter-box">I</div>
+  <div class="letter-box">O</div>
+  <div class="letter-box">X</div>
 </body>
-
+</html>
 </html>
