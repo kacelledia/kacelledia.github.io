@@ -13,7 +13,7 @@ body {
 
 h1, h2 {
   margin: 0;
-  font-family: 'tieng-font';
+  font-family: "tieng-font";
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
