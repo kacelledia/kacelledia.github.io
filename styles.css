@@ -96,11 +96,12 @@ a:active {
     color:#1f2c7c
 }
 
-#Blue-Video {
+  #bg-video {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    top: 0;
+    left: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1; /* Keep it behind all other content */
+    object-fit: cover;
   }
-
