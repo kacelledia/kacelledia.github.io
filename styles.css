@@ -9,7 +9,7 @@
 
 body {
     font-family: "tieng-font";
-    background-color: #1f2c7c;;
+        background-color: #1f2c7c;;
 }
 
 h1 { 
@@ -21,8 +21,8 @@ h1 {
     align-items: center;
     gap: 20px;
     padding: 40px;
-    text-transform: uppercase
     color:#FFFFFF
+
 }
 
 .letter-box {
