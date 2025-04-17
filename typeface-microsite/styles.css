@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+body {
+    font-family: "tieng-font";
+    background-color: #1f2c7c;
+}
+
 h1, h2 {
   margin: 0;
   font-family: 'tieng-font';
