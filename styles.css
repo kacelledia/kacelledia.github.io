@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: "Tieng-Font";
-    src: url("Tieng-Font.otf") format("otf");
+    src: url(Tieng-Font.otf) format("otf");
     font-weight: normal;
     font-style: normal;
 }
