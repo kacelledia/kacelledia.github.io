@@ -14,17 +14,14 @@ body {
 }
 
 h1 { 
-    font-size: 32px;
-    font-family: "tieng-font";
-    text-align: center;
-    text-transform: uppercase;
-    border: 1rem solid;
-    border-width: medium;
-    border-style: inset;
-    border-inline: solid;
-    border-inline-color: #0d175b;
-    border-color: #FFFFFF;
-    color: #243d96
+    margin: 0;
+    font-family: 'tieng-font';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
 }
 
 a:visited { 
