@@ -9,7 +9,7 @@
 h1 {
     margin: 0;
     background-color: #1f2c7c;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'tieng-font';
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -43,4 +43,44 @@ h1 {
     border-style: double;
     border-radius: 8px;
     pointer-events: none;
+  }
+
+  h2{margin: 0;
+    background-color: #1f2c7c;
+    font-family: 'tieng-font';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .letter-box {
+    position: relative;
+    background: white;
+    color: #1f2c7c;
+    padding: 30px 20px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 20px 20px 0 #111d5c;
+    border: 4px solid #1f2c7c;
+    border-radius: 6px;
+  }
+
+  .letter-box::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 2px solid #1f2c7c;
+    border-style: double;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+    
   }
