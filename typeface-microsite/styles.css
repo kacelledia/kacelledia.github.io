@@ -18,9 +18,9 @@ body {
     align-items: center;
     gap: 20px;
     padding: 40px;
-}
 
-.letter-box {
+
+.letter-box 
   position: relative;
   background: #1f2c7c;
   color: #ffffff;
@@ -30,9 +30,9 @@ body {
   box-shadow: 20px 20px 0 #111d5c;
   border: 4px solid #1f2c7c;
   border-radius: 6px;
-}
 
-.letter-box::before {
+
+.letter-box::before 
   content: '';
   position: absolute;
   top: -4px;
@@ -58,9 +58,8 @@ h2{
     align-items: center;
     gap: 20px;
     padding: 40px;
-}
 
-.letter-box {
+.letter-box 
   position: relative;
   background: #1f2c7c;
   color: #ffffff;
@@ -70,9 +69,8 @@ h2{
   box-shadow: 10px 10px 0 #111d5c;
   border: 2px solid #1f2c7c;
   border-radius: 6px;
-}
 
-.letter-box::before {
+.letter-box::before 
   content: '';
   position: absolute;
   top: -2x;
