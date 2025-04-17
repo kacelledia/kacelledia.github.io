@@ -21,7 +21,8 @@ h1 {
     align-items: center;
     gap: 20px;
     padding: 40px;
-    color:#FFFFFF
+    color:#FFFFFF;
+    text-transform: uppercase;
 
 }
 
