@@ -9,12 +9,12 @@
 
 body {
     font-family: "tieng-font";
-        background-color: #1f2c7c;;
+    background-color: #1f2c7c;;
 }
 
 h1 { 
     margin: 0;
-    font-family: 'tieng-font';
+    font-family: "tieng-font";
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -96,61 +96,12 @@ a:active {
     color:#1f2c7c
 }
 
-#bg-video {
+  #bg-video {
     position: fixed;
     top: 0;
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1; 
     object-fit: cover;
-    z-index: -1;
-  }
-  
-  /* Content styling */
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    text-align: center;
-    color: white;
-    position: relative;
-    z-index: 1;
-  }
-  
-  /* Letter box */
-  .letter-box {
-    display: inline-block;
-    background: white;
-    color: #1f2c7c;
-    padding: 20px 30px;
-    font-size: 36px;
-    font-weight: bold;
-    border: 4px solid #1f2c7c;
-    border-radius: 6px;
-    box-shadow: 12px 12px 0 #111d5c;
-    margin-top: 80px;
-  }
-  
-  /* Links */
-  .link-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .link-box {
-    background: white;
-    color: #1f2c7c;
-    text-decoration: none;
-    padding: 12px 24px;
-    font-size: 20px;
-    font-weight: bold;
-    border: 4px solid #1f2c7c;
-    border-radius: 6px;
-    box-shadow: 8px 8px 0 #111d5c;
-    display: inline-block;
   }
