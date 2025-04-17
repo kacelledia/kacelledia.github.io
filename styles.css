@@ -46,6 +46,23 @@ ul {
     color: #FFFFFF;
 }
 
+.list-box {
+    display: inline-block;
+  background: #ffffff;
+  color: #1f2c7c;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: 'tieng-font', sans-serif;
+  font-weight: bold;
+  border: 4px solid #1f2c7c;
+  border-radius: 6px;
+  box-shadow: 12px 12px 0 #111d5c;
+  position: relative;
+  text-align: center;
+}
+
+
 a:visited { 
     color: #FFFFFF
 }
