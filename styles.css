@@ -1,6 +1,4 @@
-body {
-    background-color: #1f368c;
-}
+
 
 @font-face {
     font-family: "tieng-font";
@@ -11,6 +9,7 @@ body {
 
 body {
     font-family: "tieng-font";
+    background-color: #1f2c7c;;
 }
 
 h1 { 
@@ -27,17 +26,17 @@ h1 {
 }
 
 .letter-box {
-    position: relative;
-    background: white;
-    color: #1f2c7c; /* same blue for contrast */
-    padding: 30px 20px;
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 20px 20px 0 #111d5c; /* shadow mimicking 3D look */
-    border: 4px solid #1f2c7c;
-    border-radius: 6px;
-  }
+  position: relative;
+  background: white;
+  color: #1f2c7c; /* same blue for contrast */
+  padding: 30px 20px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 20px 20px 0 #111d5c; /* shadow mimicking 3D look */
+  border: 4px solid #1f2c7c;
+  border-radius: 6px;
+}
 
 ul {
    font-family: "tieng-font";
