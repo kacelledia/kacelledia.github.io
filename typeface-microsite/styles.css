@@ -17,6 +17,7 @@ h1 {
     font-size: 48px;
     font-family: "tieng-font";
     text-align: center;
+    text-transform: capitalize;
     border-width: medium;
     border-style: inset;
     border-color: #FFFFFF;
