@@ -16,12 +16,14 @@ body {
 h1 { 
     font-size: 48px;
     font-family: "tieng-font";
+    text-align: center;
     color: #FFFFFF
 }
 
 ul {
     font-size: 24px;
     font-family: "tieng-font";
+    text-align: center;
     color: #FFFFFF
 }
 
