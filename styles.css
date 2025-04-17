@@ -44,42 +44,44 @@ ul {
     text-align: center;
     list-style-position: inside;
     color: #FFFFFF;
-}
-
-.link-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .link-box {
-    display: inline-block;
-    background: #ffffff;
-    color: #1f2c7c;
-    text-decoration: none;
-    padding: 15px 25px;
-    font-size: 20px;
-    font-family: 'tieng-font';
-    border: 4px solid #1f2c7c;
-    border-radius: 6px;
-    box-shadow: 12px 12px 0 #111d5c;
-    text-align: center;
-  }
-  
-  .link-box::before {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    border: 2px solid #1f2c7c;
-    border-style: double;
-    border-radius: 8px;
-  }
+    .link-list {
+        list-style: none;
+        padding: 0;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .link-box {
+        display: inline-block;
+        background: #ffffff;
+        color: #1f2c7c;
+        text-decoration: none;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-family: 'tieng-font', sans-serif;
+        font-weight: bold;
+        border: 4px solid #1f2c7c;
+        border-radius: 6px;
+        box-shadow: 12px 12px 0 #111d5c;
+        position: relative;
+        text-align: center;
+      }
+      
+      .link-box::before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        border: 2px solid #1f2c7c;
+        border-style: double;
+        border-radius: 8px;
+        pointer-events: none;
+      }
 
 
 a:visited { 
