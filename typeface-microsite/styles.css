@@ -17,7 +17,8 @@ h1 {
     font-size: 48px;
     font-family: "tieng-font";
     text-align: center;
-    border: #FFFFFF;
+    border: 50 px;
+    border-color: #FFFFFF;
     color: #243d96
 }
 
