@@ -1,0 +1,54 @@
+body {
+    background-color: #1f368c;
+}
+
+@font-face {
+    font-family: "tieng-font";
+    src: url("tieng-font.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "tieng-font";
+}
+
+h1 { 
+    font-size: 32px;
+    font-family: "tieng-font";
+    text-align: center;
+    text-transform: uppercase;
+    border: 1rem solid;
+    border-width: medium;
+    border-style: inset;
+    border-inline: solid;
+    border-inline-color: #0d175b;
+    border-color: #FFFFFF;
+    color: #243d96
+}
+
+ul {
+    font-size: 24px;
+    font-family: "tieng-font";
+    text-align: center;
+    list-style-position: inside;
+    line-height: 21 px;
+    color: #FFFFFF
+}
+
+
+a:visited { 
+    color: #FFFFFF
+}
+
+a:active {
+    color:#FFFFFF
+}
+
+a:active {
+    color:#FFFFFF
+}
+
+.center {
+    text-align: center;
+}
