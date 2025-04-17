@@ -3,12 +3,12 @@ body {
 }
 
 @font-face {
-    font-family: "custom-font";
+    font-family: "Tieng-Font";
     src: url("Tieng-Font.otf") format("otf");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "custom-font";
+    font-family: "Tieng-Font";
 }
