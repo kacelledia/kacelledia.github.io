@@ -7,80 +7,41 @@
 }
 
 body {
-    font-family: "tieng-font";
-    color: #ffffff;
-    margin: 0;
-    background-color: #1f2c7c;
-    font-family: 'tieng-font';
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 40px;
-}
-
-.letter-box {
-  position: relative;
-  background: #1f2c7c;
-  color: #ffffff;
-  padding: 30px 20px;
-  font-size: 48px;
-  text-align: center;
-  box-shadow: 20px 20px 0 #111d5c;
-  border: 4px solid #1f2c7c;
-  border-radius: 6px;
-}
-
-.letter-box::before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border: 2px solid #1f2c7c;
-  border-style: double;
-  border-radius: 8px;
-  pointer-events: none;
-}
-
-h2{
-    
-    font-family: "tieng-font";
-    color: #ffffff;
-    margin: 0;
-    background-color: #1f2c7c;
-    font-family: 'tieng-font';
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 40px;
-}
-
-.letter-box {
-  position: relative;
-  background: #1f2c7c;
-  color: #ffffff;
-  padding: 20px 10px;
-  font-size: 32px;
-  text-align: center;
-  box-shadow: 10px 10px 0 #111d5c;
-  border: 2px solid #1f2c7c;
-  border-radius: 6px;
-}
-
-.letter-box::before {
-  content: '';
-  position: absolute;
-  top: -2x;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  border: 2px solid #1f2c7c;
-  border-style: double;
-  border-radius: 8px;
-  pointer-events: none;
-}
+    body {
+        margin: 0;
+        background-color: #1f2c7c; /* deep navy blue */
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        gap: 20px;
+        padding: 40px;
+      }
+      
+      .letter-box {
+        position: relative;
+        background: white;
+        color: #1f2c7c; /* same blue for contrast */
+        padding: 30px 20px;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 20px 20px 0 #111d5c; /* shadow mimicking 3D look */
+        border: 4px solid #1f2c7c;
+        border-radius: 6px;
+      }
+      
+      /* Optional double border or decorative inner frame */
+      .letter-box::before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        border: 2px solid #1f2c7c;
+        border-style: double;
+        border-radius: 8px;
+      }
