@@ -6,7 +6,6 @@
   font-style: normal;
 }
 
-/* Shared heading styles */
 h1, h2 {
   margin: 0;
   font-family: 'tieng-font';
@@ -18,17 +17,14 @@ h1, h2 {
   padding: 40px;
 }
 
-/* h1 – white text on blue background */
 h1 {
   background-color: #1f2c7c;
 }
 
-/* h2 – blue text on white background */
 h2 {
   background-color: #1f2c7c;
 }
 
-/* Blue boxes (for h1) */
 .letter-box-blue {
   position: relative;
   background: #1f2c7c;
@@ -55,16 +51,15 @@ h2 {
   pointer-events: none;
 }
 
-/* White boxes (for h2) */
 .letter-box-white {
   position: relative;
   background: #ffffff;
   color: #1f2c7c;
-  padding: 30px 20px;
-  font-size: 48px;
+  padding: 10px 10px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 20px 20px 0 #111d5c;
+  box-shadow: 10px 10px 0 #111d5c;
   border: 4px solid #1f2c7c;
   border-radius: 6px;
 }
@@ -72,12 +67,12 @@ h2 {
 .letter-box-white::before {
   content: '';
   position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
   border: 2px solid #1f2c7c;
   border-style: double;
-  border-radius: 8px;
+  border-radius: 4px;
   pointer-events: none;
 }
