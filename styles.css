@@ -22,6 +22,11 @@ h1 {
     align-items: center;
     gap: 20px;
     padding: 40px;
+
+}
+
+ul {
+    text-align: center;
 }
 
 a:visited { 
