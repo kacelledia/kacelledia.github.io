@@ -48,7 +48,6 @@ h2 {
   border: 2px solid #ffffff;
   border-style: double;
   border-radius: 8px;
-  pointer-events: none;
 }
 
 .letter-box-white {
@@ -74,5 +73,4 @@ h2 {
   border: 2px solid #1f2c7c;
   border-style: double;
   border-radius: 4px;
-  pointer-events: none;
 }
