@@ -27,6 +27,13 @@ ul {
     color: #FFFFFF
 }
 
+li  {
+    font-size: 24px;
+    font-family: "tieng-font";
+    text-align: center;
+    color: #FFFFFF
+}
+
 a:visited { 
     color: #FFFFFF
 }
