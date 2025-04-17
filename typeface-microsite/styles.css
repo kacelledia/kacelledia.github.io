@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-body {
+h1 {
     font-family: "tieng-font";
     color: #ffffff;
     margin: 0;
@@ -58,8 +58,9 @@ h2{
     align-items: center;
     gap: 20px;
     padding: 40px;
+}
 
-.letter-box 
+.letter-box {
   position: relative;
   background: #1f2c7c;
   color: #ffffff;
@@ -69,9 +70,9 @@ h2{
   box-shadow: 10px 10px 0 #111d5c;
   border: 2px solid #1f2c7c;
   border-radius: 6px;
+}
 
-
-.letter-box::before 
+.letter-box::before {
   content: '';
   position: absolute;
   top: -2x;
