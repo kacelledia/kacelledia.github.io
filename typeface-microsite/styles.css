@@ -25,3 +25,7 @@ ul {
     font-family: Tieng-Font;
     color: #FFFFFF
 }
+
+a:visited { 
+    color: #FFFFFF
+}
