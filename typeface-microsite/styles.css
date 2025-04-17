@@ -29,3 +29,7 @@ ul {
 a:visited { 
     color: #FFFFFF
 }
+
+a:active {
+    color:#FFFFFF
+}
