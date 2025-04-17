@@ -1,3 +1,10 @@
 body {
     background-color: #1f368c;
 }
+
+@font-face {
+    font-family: "custom-font";
+    src: url("Tieng-Font.ufo") format("ufo");
+    font-weight: normal;
+    font-style: normal;
+}
