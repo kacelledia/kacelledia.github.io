@@ -21,6 +21,7 @@ h1 {
     border: 1rem solid;
     border-width: medium;
     border-style: inset;
+    border-inline-color: #0d175b;
     border-color: #FFFFFF;
     color: #243d96
 }
