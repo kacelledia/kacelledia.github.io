@@ -1,8 +1,11 @@
-<script>
-  document.querySelectorAll('.scattered').forEach(el => {
-    const randTop = Math.random().toFixed(2);
-    const randLeft = Math.random().toFixed(2);
-    el.style.setProperty('--rand-top', randTop);
-    el.style.setProperty('--rand-left', randLeft);
+document.addEventListener("DOMContentLoaded", () => {
+    const boxes = document.querySelectorAll('.scattered');
+  
+    boxes.forEach(box => {
+      const randTop = Math.random() * 80 + 10;   // 10% to 90%
+      const randLeft = Math.random() * 80 + 10;  // 10% to 90%
+      
+      box.style.top = `${randTop}%`;
+      box.style.left = `${randLeft}%`;
+    });
   });
-</script>
