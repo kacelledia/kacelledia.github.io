@@ -27,7 +27,8 @@ h1 {
   background-color: #1f2c7c;
 }
 
-.letter-box-blue {
+
+.letter-box-blue-t {
   position: relative;
   background: #1f2c7c;
   color: #ffffff;
@@ -40,6 +41,17 @@ h1 {
   border-radius: 6px;
 }
 
+.letter-box-blue-t::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: 2px solid #ffffff;
+  border-style: double;
+  border-radius: 8px;
+}
 
 .letter-box-white {
   position: relative;
