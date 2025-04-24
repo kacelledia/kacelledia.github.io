@@ -419,7 +419,7 @@ h1 {
   position: relative;
   background: #ffffff;
   color: #1f2c7c;
-  padding: 5px 7px;
+  padding: 3px 5px;
   font-size: 48px;
   font-weight: bold;
   text-align: center;
@@ -434,8 +434,8 @@ h1 {
   content: '';
   position: absolute;
   top: -2px;
-  left: -5px;
-  right: -5px;
+  left: -2px;
+  right: -2px;
   bottom: -2px;
   border: 2px solid #1f2c7c;
   border-style: double;
