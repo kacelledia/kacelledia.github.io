@@ -477,7 +477,7 @@ h1 {
   border: 4px solid #1f2c7c;
   border-radius: 6px;
   top: 160px;
-  left: 800px;
+  left: 200px;
 }
 
 .letter-box-white::before-l {
@@ -491,7 +491,7 @@ h1 {
   border-style: double;
   border-radius: 4px;
   top: 160px;
-  left: 80px;
+  left: 200px;
 }
 
 .letter-box-white-l {
