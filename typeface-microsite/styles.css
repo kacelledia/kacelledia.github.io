@@ -11,68 +11,28 @@ body {
     background-color: #1f2c7c;
 }
 
-h1, h2 {
-  margin: 0;
-  font-family: "tieng-font";
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 40px;
-  transform: scale(1.7);
-}
-
-h1 {
-  background-color: #1f2c7c;
-}
-
-.letter-box-blue {
+.letter-container {
   position: relative;
-  background: #1f2c7c;
-  color: #ffffff;
-  padding: 1px 10px;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  box-shadow: 15px 15px #111d5c;
-  border: 4px solid #ffffff;
-  border-radius: 6px;
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
 }
 
-.letter-box-blue::before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border: 2px solid #ffffff;
-  border-style: double;
-  border-radius: 8px;
-}
-
+.letter-box-blue,
 .letter-box-white {
-  position: relative;
-  background: #ffffff;
-  color: #1f2c7c;
-  padding: 1px 5px;
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-  box-shadow: 10px 10px 0 #111d5c;
-  border: 4px solid #1f2c7c;
-  border-radius: 6px;
+  position: absolute;
+  transition: transform 0.3s ease;
 }
 
-.letter-box-white::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  border: 2px solid #1f2c7c;
-  border-style: double;
-  border-radius: 4px;
-}
+/* Blue letters with scattered positions */
+.letter-box-blue:nth-child(1) { top: 20px; left: 10%; }
+.letter-box-blue:nth-child(2) { top: 50px; left: 30%; }
+.letter-box-blue:nth-child(3) { top: 10px; left: 50%; }
+.letter-box-blue:nth-child(4) { top: 60px; left: 70%; }
+.letter-box-blue:nth-child(5) { top: 30px; left: 85%; }
+
+/* White letters with different scattered positions */
+.letter-box-white:nth-child(1) { top: 30px; left: 15%; }
+.letter-box-white:nth-child(2) { top: 70px; left: 25%; }
+.letter-box-white:nth-child(3) { top: 20px; left: 45%; }
+.letter-box-white:nth-child(4) { top: 80px; left: 65%; }
+.letter-box-white:nth-child(5) { top: 40px; left: 80%; }
