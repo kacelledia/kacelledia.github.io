@@ -32,14 +32,15 @@ h3 {
   transform: scale(3.5);
   margin-top: 400px; 
   text-align: center;
-  color:#ffffff
+  color:#1f2c7c
 }
 h4 {
   font-family: "tieng-font";
   transform: scale(3.5);
   margin-top: 100px; 
   text-align: center;
-  color:#ffffff
+  color:#1f2c7c
+  background-color:#ffffff
 }
 
 .letter-box-blue-t {
