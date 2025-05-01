@@ -60,6 +60,15 @@ h5 {
   text-align: center;
   color:#ffffff
 }
+
+h6 {font-family: "tieng-font";
+  transform: scale(.7);
+  position: relative;
+  color:#FFFFFF;
+  top: 600px;
+  text-align:center;
+  }
+
 .divider1 {
   border: none;
   height: 2px;
