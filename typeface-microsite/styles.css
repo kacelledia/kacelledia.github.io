@@ -44,9 +44,9 @@ h4 {
 .divider {
   border: none;
   height: 2px;
-  background-color: #ffffff; /* Or any color */
-  width: 80%; /* Optional */
-  margin: 20px auto; /* Center it with spacing above/below */
+  background-color: #ffffff;
+  width: 80%; 
+  margin: 200px auto; 
 }
 .letter-box-blue-t {
   position: relative;
