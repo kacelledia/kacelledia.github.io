@@ -65,20 +65,6 @@ h4 {
   box-shadow: 20px 20px #0e1540;
 }
 
-.letter-box-blue-t::before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border: 2px solid #ffffff;
-  border-style: double;
-  border-radius: 8px;
-  top: 130px;
-  right: 100px;
-  transform: scale(1.5);
-}
 
 .letter-box-blue-i {
   position: relative;
@@ -103,20 +89,6 @@ h4 {
   box-shadow: 20px 20px #0e1540;
 }
 
-.letter-box-blue-i::before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border: 2px solid #ffffff;
-  border-style: double;
-  border-radius: 8px;
-  top: 80px;
-  right: 58px;
-  transform: scale(1.5);
-}
 .letter-box-blue-e {
   position: relative;
   background: #1f2c7c;
