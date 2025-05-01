@@ -495,8 +495,16 @@ h1 {
   left: 60px;
 }
 
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 
-.letter-box-white::before-k {
+.letter-box-white-k::before {
   content: '';
   position: absolute;
   top: -2px;
@@ -508,6 +516,7 @@ h1 {
   border-radius: 4px;
   top: -10px;
   left: 100px;
+  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-k {
   position: relative;
@@ -522,6 +531,7 @@ h1 {
   border-radius: 6px;
   top: 160px;
   left: 50px;
+  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-l {
