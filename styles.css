@@ -29,10 +29,11 @@ h1 {
 
 h2{
   font-family: "tieng-font";
-  transform: scale(.5);
+  transform: scale(.7);
   position: relative;
   color:#FFFFFF;
-  top: 400px;
+  top: 600px;
+  text-align:center;
 
 }
 .letter-box {
