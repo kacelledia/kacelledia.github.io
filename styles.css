@@ -23,7 +23,7 @@ h1 {
   text-transform: uppercase;
   transform: scale(2);
   position: relative;
-  top:100px
+  top:150px
 
 }
 
@@ -49,7 +49,7 @@ ul {
   color: #FFFFFF;
   transform: scale(2);
   position: relative;
-  top:150px
+  top:250px
 }
   .link-list {
       list-style: none;
