@@ -7,13 +7,7 @@
 
 body {
   font-family: "tieng-font";
-  background-color: #1f2c7c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
+  background-color: #1f2c7c;;
 }
 
 h1 { 
@@ -25,21 +19,24 @@ h1 {
   align-items: center;
   gap: 20px;
   padding: 65px;
-  color: #FFFFFF;
+  color:#FFFFFF;
   text-transform: uppercase;
-  transform: scale(1.5); /* Slightly scaled for larger size */
+  transform: scale(1.3);
+
 }
 
 .letter-box {
-  position: relative;
-  background: white;
-  color: #1f2c7c; 
-  padding: 30px 20px;
-  font-size: 32px;
-  text-align: center;
-  box-shadow: 20px 20px #111d5c; 
-  border: 4px solid #1f2c7c;
-  border-radius: 6px;
+position: relative;
+background: white;
+color: #1f2c7c; 
+padding: 30px 20px;
+font-size: 32px;
+text-align: center;
+box-shadow: 20px 20px #111d5c; 
+border: 4px solid #1f2c7c;
+border-radius: 6px;
+position: relative;
+top: 150 px;
 }
 
 ul {
@@ -48,41 +45,63 @@ ul {
   text-align: center;
   list-style-position: inside;
   color: #FFFFFF;
-  transform: scale(1.5); /* Slightly scaled for larger size */
+  transform: scale(1.3);
+}
+  .link-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .link-box {
+      display: inline-block;
+      background: #ffffff;
+      color: #1f2c7c;
+      text-decoration: none;
+      padding: 15px 25px;
+      font-size: 20px;
+      font-family: 'tieng-font';
+      border: 4px solid #1f2c7c;
+      border-radius: 6px;
+      box-shadow: 12px 12px 0 #111d5c;
+      position: relative;
+      text-align: center;
+    }
+    
+
+
+ul:visited { 
+  color:#1f2c7c
 }
 
-.link-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+ul:active {
+  color:#1f2c7c
 }
 
-.link-box {
-  display: inline-block;
-  background: #ffffff;
-  color: #1f2c7c;
-  text-decoration: none;
-  padding: 15px 25px;
-  font-size: 20px;
-  font-family: 'tieng-font';
-  border: 4px solid #1f2c7c;
-  border-radius: 6px;
-  box-shadow: 12px 12px 0 #111d5c;
-  position: relative;
-  text-align: center;
-  transition: all 0.3s ease;
+ul:active {
+  color:#1f2c7c
 }
 
 .link-box:hover {
-  background: #1f2c7c;
-  color: #ffffff;
-  border-color: #ffffff;
-  box-shadow: 12px 12px 0 #ffffff;
+display: inline-block;
+background: #1f2c7c;
+color: #ffffff;
+text-decoration: none;
+padding: 15px 25px;
+font-size: 20px;
+font-family: 'tieng-font';
+border: 4px solid #ffffff;
+border-radius: 6px;
+box-shadow: 12px 12px 0 #ffffff;
+position: relative;
+text-align: center;
 }
+
+
 
 #blue-video {
   position: fixed;
