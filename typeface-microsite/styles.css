@@ -81,6 +81,13 @@ h1 {
   top: 80px;
   right: 58px;
   transform: scale(1.5);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.letter-box-blue-i:hover {
+  background: #3a4fcf; 
+  transform: scale(1.6) translateY(-10px); 
+  box-shadow: 20px 20px #0e1540;
 }
 
 .letter-box-blue-i::before {
@@ -111,6 +118,13 @@ h1 {
   top: 170px;
   left: -10px;
   transform: scale(1.5);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.letter-box-blue-e:hover {
+  background: #3a4fcf; 
+  transform: scale(1.6) translateY(-10px); 
+  box-shadow: 20px 20px #0e1540;
 }
 
 .letter-box-blue-e::before {
@@ -141,6 +155,13 @@ h1 {
   top: 80px;
   right: -45px;
   transform: scale(1.5);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.letter-box-blue-n:hover {
+  background: #3a4fcf; 
+  transform: scale(1.6) translateY(-10px); 
+  box-shadow: 20px 20px #0e1540;
 }
 
 .letter-box-blue-n::before {
@@ -171,6 +192,13 @@ h1 {
   top: 120px;
   left: 100px;
   transform: scale(1.5);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.letter-box-blue-g:hover {
+  background: #3a4fcf; 
+  transform: scale(1.6) translateY(-10px); 
+  box-shadow: 20px 20px #0e1540;
 }
 
 .letter-box-blue-g::before {
