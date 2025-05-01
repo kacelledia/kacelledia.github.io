@@ -27,7 +27,12 @@ h1 {
   background-color: #1f2c7c;
 }
 
+h3 {
+  font-family: "tieng-font";
+  background-color:#ffffff
+  
 
+}
 .letter-box-blue-t {
   position: relative;
   background: #1f2c7c;
