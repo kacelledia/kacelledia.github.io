@@ -254,6 +254,7 @@ h1 {
   right: 40px;
 }
 .letter-box-white-b {
+  animation: upDown 1s infinite ease-in-out;
   position: relative;
   background: #ffffff;
   color: #1f2c7c;
@@ -266,7 +267,7 @@ h1 {
   border-radius: 6px;
   top: 90px;
   right: 100px
-  animation: upDown 1s infinite ease-in-out;
+
 }
 
 .letter-box-white-b::before {
