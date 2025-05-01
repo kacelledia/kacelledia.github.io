@@ -185,9 +185,8 @@ h4 {
   right: -4px;
   bottom: -4px;
   border: 2px solid #ffffff;
+  border-style: double;
   border-radius: 8px;
-  top: 80px;
-  right: -45px;
   transform: scale(1.5);
 }
 .letter-box-blue-g {
