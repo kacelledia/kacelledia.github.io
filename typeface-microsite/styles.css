@@ -10,15 +10,19 @@ body {
     font-family: "tieng-font";
     background-color: #1f2c7c;
 }
-
+@keyframes slideLeftRight {
+  0%   { transform: translateX(0) scale(1.2); }
+  50%  { transform: translateX(50px) scale(1.2); }
+  100% { transform: translateX(0) scale(1.2); }
+}
 h1 {
+  animation: slideLeftRight 2s ease-in-out infinite;
   font-family: "tieng-font";
   text-align: center;
   transform: scale(1.2);
   color:#ffffff
-  
-
 }
+
 h2, h3 {
   margin: 0;
   font-family: "tieng-font";
