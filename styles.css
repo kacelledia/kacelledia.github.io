@@ -48,6 +48,8 @@ ul {
   list-style-position: inside;
   color: #FFFFFF;
   transform: scale(1.3);
+  position: relative;
+  top:100px
 }
   .link-list {
       list-style: none;
