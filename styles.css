@@ -88,15 +88,15 @@ ul {
       }
 
 
-a:visited { 
+ul:visited { 
     color:#1f2c7c
 }
 
-a:active {
+ul:active {
     color:#1f2c7c
 }
 
-a:active {
+ul:active {
     color:#1f2c7c
 }
 
