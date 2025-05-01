@@ -14,7 +14,9 @@ body {
 h1 {
   font-family: "tieng-font";
   text-align: center;
+  transform: scale(1.2);
   color:#ffffff
+  
 
 }
 h2, h3 {
