@@ -100,6 +100,10 @@ ul:active {
     color:#1f2c7c
 }
 
+ul:hover {
+  color:#1f2c7c
+}
+
   #blue-video {
     position: fixed;
     top: 0;
