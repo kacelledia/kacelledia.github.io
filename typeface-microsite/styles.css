@@ -295,9 +295,10 @@ h1 {
   border-radius: 6px;
   top: 160px;
   right: 50px;
+  animation: upDown 1s infinite ease-in-out;
 }
 
-.letter-box-white::before-c {
+.letter-box-white-c::before {
   content: '';
   position: absolute;
   top: -2px;
