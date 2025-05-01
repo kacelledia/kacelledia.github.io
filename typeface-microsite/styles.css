@@ -11,7 +11,7 @@ body {
     background-color: #1f2c7c;
 }
 
-h1, h2 {
+h2, h3 {
   margin: 0;
   font-family: "tieng-font";
   display: flex;
@@ -23,18 +23,18 @@ h1, h2 {
   transform: scale(1.7);
 }
 
-h1 {
+h2 {
   background-color: #1f2c7c;
 }
 
-h3 {
+h4 {
    font-family: "tieng-font";
   transform: scale(3.5);
   margin-top: 400px; 
   text-align: center;
   color:#ffffff
 }
-h4 {
+h5 {
   font-family: "tieng-font";
   transform: scale(3.5);
   margin-top: 100px; 
