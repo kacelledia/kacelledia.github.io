@@ -62,10 +62,10 @@ h5 {
 }
 
 h6 {font-family: "tieng-font";
-  transform: scale(.7);
+  transform: scale(1);
   position: relative;
   color:#FFFFFF;
-  top: 50px;
+  top: 5px;
   text-align:center;
   }
 
