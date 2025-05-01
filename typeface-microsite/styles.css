@@ -41,7 +41,16 @@ h4 {
   text-align: center;
   color:#ffffff
 }
-.divider {
+.divider1 {
+  border: none;
+  height: 2px;
+  background-color: #ffffff;
+  width: 90%; 
+  position: relative;
+  top: 350px;
+}
+
+.divider2 {
   border: none;
   height: 2px;
   background-color: #ffffff;
