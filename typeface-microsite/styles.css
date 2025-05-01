@@ -213,15 +213,6 @@ h1 {
   top: 120px;
   left: 100px;
   transform: scale(1.5);
-
-  @keyframes upDown {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
 }
 .letter-box-white-a {
   position: relative;
@@ -236,7 +227,6 @@ h1 {
   border-radius: 6px;
   top: -50px;
   right: 40px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-a {
@@ -251,7 +241,6 @@ h1 {
   border-radius: 4px;
   top: -50px;
   right: 40px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-b {
   position: relative;
@@ -266,7 +255,6 @@ h1 {
   border-radius: 6px;
   top: 90px;
   right: 100px
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-b {
@@ -281,7 +269,6 @@ h1 {
   border-radius: 4px;
   top: 90px;
   right: 90px
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-c {
   position: relative;
@@ -296,7 +283,6 @@ h1 {
   border-radius: 6px;
   top: 160px;
   right: 50px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-c {
@@ -311,7 +297,6 @@ h1 {
   border-radius: 4px;
   top: 160px;
   right: 50px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-d {
   position: relative;
@@ -326,7 +311,6 @@ h1 {
   border-radius: 6px;
   top: -80px;
   right: 80px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-d {
@@ -341,7 +325,6 @@ h1 {
   border-radius: 4px;
   top: -80px;
   right: 80px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-e {
   position: relative;
@@ -356,7 +339,6 @@ h1 {
   border-radius: 6px;
   top: 120px;
   right: 50px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-e {
@@ -371,7 +353,6 @@ h1 {
   border-radius: 4px;
   top: 120px;
   right: 50px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-f {
   position: relative;
@@ -386,7 +367,6 @@ h1 {
   border-radius: 6px;
   bottom: -200px;
   left: -10px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-f {
@@ -401,7 +381,6 @@ h1 {
   border-radius: 4px;
   bottom: -200px;
   left: -10px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-g {
   position: relative;
@@ -416,7 +395,6 @@ h1 {
   border-radius: 6px;
   bottom: 50px;
   left: -40px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-g {
@@ -431,7 +409,6 @@ h1 {
   border-radius: 4px;
   bottom: 50px;
   left: -40px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-h {
   position: relative;
@@ -446,7 +423,6 @@ h1 {
   border-radius: 6px;
   bottom: -120px;
   left: -10px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-h {
@@ -461,7 +437,6 @@ h1 {
   border-radius: 4px;
   bottom: -120px;
   left: -10px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-i {
   position: relative;
@@ -476,7 +451,6 @@ h1 {
   border-radius: 6px;
   bottom: -170px;
   left: 20px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-i {
@@ -491,7 +465,6 @@ h1 {
   border-radius: 4px;
   bottom: -170px;
   left: 20px;
-  animation: upDown 1s infinite ease-in-out;
 }
 .letter-box-white-n {
   position: relative;
@@ -506,7 +479,6 @@ h1 {
   border-radius: 6px;
   bottom: 90px;
   left: 60px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white::before-n {
@@ -521,7 +493,6 @@ h1 {
   border-radius: 4px;
   bottom: 90px;
   left: 60px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 
@@ -567,7 +538,6 @@ h1 {
   border-radius: 4px;
   bottom: -30px;
   left: 40px;
-  animation: upDown 1s infinite ease-in-out;
 }
 
 .letter-box-white-l {
@@ -583,5 +553,4 @@ h1 {
   border-radius: 6px;
   bottom: -30px;
   left: 40px;
-  animation: upDown 1s infinite ease-in-out;
 }
