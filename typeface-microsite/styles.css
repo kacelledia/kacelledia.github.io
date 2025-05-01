@@ -10,6 +10,7 @@ body {
     font-family: "tieng-font";
     background-color: #1f2c7c;
 }
+
 @keyframes moveLeftToRight {
   0% {
     transform: translateX(-100%);
@@ -21,14 +22,15 @@ body {
 
 h1 {
   font-family: "tieng-font";
-  white-space: nowrap; 
-  position: absolute; 
-  top: -50px;           
+  white-space: nowrap;
+  position: absolute;
+  top: 50px;
   left: 0;
   color: #ffffff;
   font-size: 2.5rem;
-  animation: moveLeftToRight 8s linear infinite;
+  animation: moveLeftToRight 20s linear infinite;
 }
+
 
 h2, h3 {
   margin: 0;
