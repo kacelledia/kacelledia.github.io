@@ -31,8 +31,10 @@ h3 {
   font-family: "tieng-font";
   transform: scale(1.5);
   color:#ffffff
-
+  text-align: center;
+  margin-top: 20px; 
 }
+
 .letter-box-blue-t {
   position: relative;
   background: #1f2c7c;
