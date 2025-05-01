@@ -32,7 +32,8 @@ h2{
   transform: scale(.7);
   position: relative;
   color:#FFFFFF;
-  top: 600px;
+  top: 580px;
+  bottom: 5px;
   text-align:center;
 
 }
