@@ -431,7 +431,7 @@ h1 {
   bottom: -170px;
   left: 20px;
 }
-.letter-box-white-j {
+.letter-box-white-n {
   position: relative;
   background: #ffffff;
   color: #1f2c7c;
@@ -446,7 +446,7 @@ h1 {
   left: 60px;
 }
 
-.letter-box-white::before-j {
+.letter-box-white::before-n {
   content: '';
   position: absolute;
   top: -2px;
