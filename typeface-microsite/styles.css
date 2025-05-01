@@ -22,6 +22,7 @@ body {
 
 h1 {
   font-family: "tieng-font";
+  white-space: nowrap; 
   position: relative;  
   top: 5px;             
   left: 0;            
